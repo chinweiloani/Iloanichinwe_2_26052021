@@ -1,0 +1,420 @@
+/* GENERAL */
+.html, body {
+    font-family:'Raleway', Arial, Helvetica, sans-serif;
+}
+
+.flexCentre {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.flexAround {
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+}
+.flexBetween {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.flexColumnCentre {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.flexColumnAround {
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+}
+.flexColumnBetween {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.decorationNone {
+    text-decoration: none;
+}
+.bordureNone {
+    border: none;
+}
+.texteGras {
+    font-weight: bold;
+}
+.colorBleu {
+    color:#0065FC;
+}
+.colorBleuClair {
+   color: #DEEBFF; 
+}
+.colorGris {
+    color:#F2F2F2;
+}
+.backBleu {
+    background-color:#0065FC;
+}
+.backBleuClair {
+   background-color: #DEEBFF; 
+}
+.backGris {
+    background-color:#F2F2F2;
+}
+
+
+/* NAV*/
+.sizeNav {
+    height: 100px;
+}
+.sizeliens {
+    width: 45%;
+}
+.sizelien {
+    width: 140px;
+    height: 99px;
+}
+.colorLien2 {
+    color: black;
+}
+.bordureNav {
+    border-top: 1px solid transparent;
+}
+.bordureNav:hover {
+    border-top: 1px solid #0065FC;
+    cursor: pointer;
+}
+.bordureNav:hover > a{
+   color: #0065FC;
+}
+.margLogo {
+    margin-bottom: 7px;
+}
+/* HEADER*/
+.bordureSearch {
+    width: 400px;
+    border-radius: 10px;
+    border: 0.5px solid #F2F2F2;
+}
+.paddingSearch {
+    padding-left: 20px;
+}
+.recherche {
+    height: 50px;
+    width: 230px;
+    font-size: 18px;
+    color: black;
+    font-weight: bold;
+}
+.iconSize {
+    height: 50px;
+    width: 50px;
+    border-radius: 10px 0 0 10px;
+}
+.buttonSearch {
+    height: 50px;
+    width: 120px;
+    color: white;
+    cursor: pointer;
+    border-radius: 0 10px 10px 0;
+}
+.buttonSearch:hover {
+    color:#0065FC;
+    background-color: #F2F2F2;
+}
+/* Filtres*/
+.FiltreMarg {
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
+.filtre {
+    display: flex;
+    align-items: center;
+}
+.FiltreTitreMarg {
+    margin-right: 20px;
+}
+
+.filtreIconsTexte {
+    border: 2px solid #F2F2F2;
+    height: 50px;
+    border-radius: 30px;
+    margin-right: 20px;
+}
+.filtreIconsTexte:hover > .filtreTexte {
+    color: #0065FC;
+}
+.filtreIconsTexte:hover > .filtreIcons {
+ color: white;
+ background-color:#0065FC;
+}
+.filtreTexte {
+    height: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 0 25px 25px 0;
+}
+.filtreIcons {
+    margin-left: -2px;
+    border-radius: 25px;
+    width: 52px;
+    height: 52px;
+    color: #0065FC;
+    background-color: #DEEBFF;
+}
+
+/* info*/
+.info {
+    display: flex;
+    align-items: center;
+}
+.parentIcon {
+    width: 20px;
+    height: 20px;
+    border: 2px solid #F2F2F2;
+    border-radius: 25px;
+    margin-right: 5px;
+}
+/* HÉRBERGEMENTS*/
+.sizeHérbergements {
+    flex: 2;
+    height: 650px;
+    margin-right: 20px;
+    border-radius: 10px;
+}
+.blocHérbergements {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.bloc1 {
+    margin-bottom: 10px;
+}
+.bloc2 {
+    margin-top: 10px;
+}
+.cubeDetailsHérbegerment {
+    width: 90%;
+}
+.cubeHérbergement {
+    width: 30%;
+    height: auto;
+    background-color: white;
+    padding: 1%;
+    border-radius: 20px;
+}
+.cubeHérbergement:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+}
+.sizePopulaire {
+    flex: 1;
+    height: 650px;
+    margin-left: 20px;
+    border-radius: 10px;
+}
+.imgHérbergement1 {
+    background-image: url("images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 120px;
+    border-radius: 15px 15px 0 0;
+}
+.imgHérbergement2 {
+    background-image: url("images/hebergements/4_small/fred-kleber-gTbaxaVLvsg-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 120px;
+    border-radius: 15px 15px 0 0;
+}
+.imgHérbergement3 {
+    background-image: url("images/hebergements/4_small/reisetopia-B8WIgxA_PFU-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 120px;
+    border-radius: 15px 15px 0 0;
+}
+.imgHérbergement4 {
+    background-image: url("images/hebergements/4_small/annie-spratt-Eg1qcIitAuA-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 120px;
+    border-radius: 15px 15px 0 0;
+}
+.imgHérbergement5 {
+    background-image: url("images/hebergements/4_small/nicate-lee-kT-ZyaiwBe0-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 120px;
+    border-radius: 15px 15px 0 0;
+}
+.imgHérbergement6 {
+    background-image: url("images/hebergements/4_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 120px;
+    border-radius: 15px 15px 0 0;
+}
+
+/* Populaire*/
+.blocPopulaire {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.blocPopulaire1_2 {
+    margin-bottom: 20px;
+}
+.cubePopulaire {
+    background-color: white;
+    height: auto;
+    padding: 1% 0 1% 1%;
+    border-radius: 20px;
+}
+.cubePopulaire:hover {
+   cursor: pointer;
+   transform: scale(1.05);
+}
+.cubeDetailsPopulaire {
+    width: 60%;
+    padding-left: 5%;
+}
+.imgPopulaire1 {
+    background-image: url("images/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 35%;
+    height: 160px;
+    border-radius: 15px 0 0 15px;
+}
+.imgPopulaire2 {
+    background-image: url("images/hebergements/4_small/aw-creative-VGs8z60yT2c-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 35%;
+    height: 160px;
+    border-radius: 15px 0 0 15px;
+}
+.imgPopulaire3 {
+    background-image: url("images/hebergements/4_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 35%;
+    height: 160px;
+    border-radius: 15px 0 0 15px;
+}
+/* Activities*/
+.Activites {
+margin-top: 50px;
+margin-bottom: 50px;
+}
+.blocActivites {
+    width: 100%;
+    height: 600px;
+}
+.blocActivites2_3_5_6 {
+    width: 23%;
+    height: 600px;
+}
+/* reglage bloc*/
+.cubeActivites {
+width: 23%;
+border-radius: 15px;
+box-shadow: 5px 5px 5px 1px #DEEBFF;
+}
+.cubeActivites:hover {
+   cursor: pointer;
+   transform: scale(1.03);
+}    
+.cubeActivites2_3_5_6 {
+    width: 100%;
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px 1px #DEEBFF;
+    }
+.cubeActivites2_3_5_6:hover {
+cursor: pointer;
+transform: scale(1.03);
+}
+/*reglage de bloc*/
+.hauterTitre {
+    height: 70px;
+}
+.titreActivites {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 5%;
+    width: 95%;
+}
+.imgActivites1 {
+    background-image: url("images/activites/3_medium/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 530px;
+    border-radius: 15px 15px 0 0 ;
+}
+.imgActivites2 {
+    background-image: url("images/activites/4_small/paul-hermann-QFTrLdQIRhI-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 250px;
+    border-radius: 15px 15px 0 0 ;
+}
+.imgActivites3 {
+    background-image: url("images/activites/4_small/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 150px;
+    border-radius: 15px 15px 0 0 ;
+}
+.imgActivites4 {
+    background-image: url("images/activites/3_medium/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 530px;
+    border-radius: 15px 15px 0 0 ;
+}
+.imgActivites5 {
+    background-image: url("images/activites/4_small/florian-wehde-xW9e8gdotxI-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 250px;
+    border-radius: 15px 15px 0 0 ;
+}
+.imgActivites6 {
+    background-image: url("images/activites/4_small/lena-paulin-wH2-EJoDcV0-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 150px;
+    border-radius: 15px 15px 0 0 ;
+}
+/* FOOTER*/
+.footer {
+    height: 300px;
+    margin-top: 100px;
+}
+.footerBlocTaille {
+    height: 150px;
+}
+.margFootBloc1 {
+    margin-left: 5%;
+}
+.margFootBloc3 {
+    margin-right: 15%;
+}
+.footLien {
+    color: black;
+}
+.divfootLien {
+    height: 30px;
+}
