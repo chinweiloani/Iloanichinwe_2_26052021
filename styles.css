@@ -90,6 +90,11 @@
 .margLogo {
     margin-bottom: 7px;
 }
+.margImgLogo {
+    width: 120px;
+    height: 50px;
+}
+
 /* HEADER*/
 .bordureSearch {
     width: 400px;
