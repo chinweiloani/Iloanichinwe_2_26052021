@@ -273,17 +273,11 @@
     padding-left: 5%;
 }
 .imgPopulaire1 {
-    background-image: url("images/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg");
-    background-size: cover;
-    background-position: center;
     width: 35%;
     height: 160px;
     border-radius: 15px 0 0 15px;
 }
 .imgPopulaire2 {
-    background-image: url("images/hebergements/4_small/aw-creative-VGs8z60yT2c-unsplash.jpg");
-    background-size: cover;
-    background-position: center;
     width: 35%;
     height: 160px;
     border-radius: 15px 0 0 15px;
