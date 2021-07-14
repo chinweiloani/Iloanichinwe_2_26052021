@@ -17,14 +17,16 @@
             <div class="sizeliens flexBetween">
                 <div class="margLogo">
                     <img src="images/Reservia@3x.png" alt="logo Reservia" class="margImgLogo"/></div>
-                <div class="flexAround">
-                    <!--reajoute une div -->
+            
+                    <!--rajoute un div-->
+
                     <div class="sizelien1_2 flexCentre">
                         <div class="sizelien flexCentre bordureNav"><a class="colorLien2 decorationNone" href="#hérbergements">Hérbergements</a></div>
                         <div class="sizelien flexCentre bordureNav "><a class="colorLien2 decorationNone" href="#Activities">Activités</a></div>
-                     </div>
+                    </div>
+
                     <div class="sizelien flexCentre bordureNav "><a class="texteGras colorBleu decorationNone" href="#">S'inscrire</a></div>
-                </div>
+                
             </div>
         </nav>
         <header>
@@ -33,38 +35,48 @@
                     <h1 class="texteGras">Trouvez votre hérbergements pour des vacances de rêve</h1>
                     <p>En plein centre ville ou en pleine nature</p>
                 </div>
+
                 <div class=" bordureSearch flexCentre">
                     <div class="backGris flexCentre iconSize"><i class="fas fa-map-marker-alt"></i></div>
                     <div><input class="recherche flexCentre bordureNone paddingSearch" type="search" value="Marseille, France"/></div>
                     <div class="backBleu flexCentre buttonSearch">Rechercher</div>
                 </div>
 
-                <div class=" FiltreMarg filtre">
-                    <div class="FiltreTitreMarg "><h3>Filtres</h3></div>          
-                        <div class="flexBetween filtreIconsTexte">
+                <div class="mobileFiltreWrap filtre FiltreMarg ">
+                    <div class="FiltreTitreMarg "><h3>Filtres</h3></div>  
+                    <!--rajoute 2 div flexAround pour separer en mobile--> 
+                    <!--div1-->
+                        <div class="flexAround">       
+                            <div class="flexBetween filtreIconsTexte">
                             <i class="fas fa-money-bill-wave fa-lg filtreIcons flexCentre"></i>
                             <div class="filtreTexte flexCentre">Economique</div>
-                        </div>
+                            </div>
 
-                        <div class="flexBetween filtreIconsTexte">
+                            <div class="flexBetween filtreIconsTexte">
                             <i class="fas fa-child fa-lg filtreIcons flexCentre"></i><div class="filtreTexte flexCentre">Familiales</div>
+                            </div>
                         </div>
-                        <div class="flexBetween filtreIconsTexte">
+                        <!--div2-->
+                        <div class="mobileFiltreWrap flexAround">
+                            <div class="flexBetween filtreIconsTexte">
                             <i class="fas fa-heart fa-lg filtreIcons flexCentre"></i><div class="filtreTexte flexCentre">Romantique</div>
-                        </div>
-                        <div class="flexBetween filtreIconsTexte">
+                            </div>
+                            <div class="flexBetween filtreIconsTexte">
                             <i class="fas fa-dog fa-lg filtreIcons flexCentre"></i><div class="filtreTexte flexCentre">Animaux autorisés</div>
+                            </div>
                         </div>
                 </div>
+
                 <div class="info">
                     <div class="parentIcon flexCentre"><i class="fas fa-info fa-xs colorBleu"></i></div>
                     <p>Plus de 500 logements sont disponibles dans cette ville</p>
                 </div>
+
             </section>
         </header>
         <section id="hérbergements" class="flexAround">
-            <div class=" flexColumnAround sizeHérbergements backGris blocHérbergements">
-                <h3>Hérbergements à Marseille</h3>
+            <div class="flexColumnAround sizeHérbergements backGris blocHérbergements">
+                <h2>Hérbergements à Marseille</h2>
                 <div class="bloc1 flexBetween">
                     <div class="cubeHérbergement">
                         <img class="imgHérbergement1" src="images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg" alt="photo"/>
@@ -158,7 +170,7 @@
             </div>
             <div class="sizePopulaire backGris blocPopulaire">
                 <div class="flexBetween">
-                    <h2 class="testGras">Les plus Populaires</h2>
+                    <h2 class="tabletteSizeTitrePop testGras">Les plus Populaires</h2>
                     <div><i class="fas fa-chart-line fa-lg x2"></i></div>
                 </div>
                 <div class="flexColumnAround">
@@ -207,10 +219,11 @@
                 </div>
             </div>
         </section>
+
         <section id="Activities" class="Activites">
             <h2>Activités à Marseille</h2>
             <div class="blocActivites flexBetween">
-                <div class="cubeActivites flexColumnCentre"> 
+                <div class="cubeActivites flexColumnCentre">
                     <img class="imgActivites1" src="images/activites/3_medium/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg" alt="photo"/>
                     <div class="hauterTitre titreActivites"><h3>Vieux Port</h3></div>
                 </div>
