@@ -283,9 +283,6 @@
     border-radius: 15px 0 0 15px;
 }
 .imgPopulaire3 {
-    background-image: url("images/hebergements/4_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg");
-    background-size: cover;
-    background-position: center;
     width: 35%;
     height: 160px;
     border-radius: 15px 0 0 15px;
@@ -334,41 +331,26 @@ transform: scale(1.03);
     width: 95%;
 }
 .imgActivites1 {
-    background-image: url("images/activites/3_medium/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg");
-    background-size: cover;
-    background-position: center;
     width: 100%;
     height: 530px;
     border-radius: 15px 15px 0 0 ;
 }
 .imgActivites2 {
-    background-image: url("images/activites/4_small/paul-hermann-QFTrLdQIRhI-unsplash.jpg");
-    background-size: cover;
-    background-position: center;
     width: 100%;
     height: 250px;
     border-radius: 15px 15px 0 0 ;
 }
 .imgActivites3 {
-    background-image: url("images/activites/4_small/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg");
-    background-size: cover;
-    background-position: center;
     width: 100%;
     height: 150px;
     border-radius: 15px 15px 0 0 ;
 }
 .imgActivites4 {
-    background-image: url("images/activites/3_medium/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg");
-    background-size: cover;
-    background-position: center;
     width: 100%;
     height: 530px;
     border-radius: 15px 15px 0 0 ;
 }
 .imgActivites5 {
-    background-image: url("images/activites/4_small/florian-wehde-xW9e8gdotxI-unsplash.jpg");
-    background-size: cover;
-    background-position: center;
     width: 100%;
     height: 250px;
     border-radius: 15px 15px 0 0 ;
