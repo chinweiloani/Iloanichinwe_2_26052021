@@ -64,7 +64,7 @@
 
 /* NAV*/
 .sizeNav {
-    height: 100px;
+    height: auto;
 }
 
 .sizeliens {
@@ -99,6 +99,9 @@
 }
 
 /* HEADER*/
+.desktopMode {
+    visibility: hidden;
+}
 .bordureSearch {
     width: 400px;
     border-radius: 10px;
@@ -126,9 +129,7 @@
     cursor: pointer;
     border-radius: 0 10px 10px 0;
     font-weight: bold;
-}
-.buttonSearch i {
-    visibility: hidden;
+    border: none;
 }
 .buttonSearch:hover {
     color:#0065FC;
@@ -237,34 +238,6 @@
     height: 120px;
     border-radius: 15px 15px 0 0;
 }
-/* 
-.imgHérbergement2 {
-    width: 100%;
-    height: 120px;
-    border-radius: 15px 15px 0 0;
-}
-.imgHérbergement3 {
-    width: 100%;
-    height: 120px;
-    border-radius: 15px 15px 0 0;
-}
-.imgHérbergement4 {
-    width: 100%;
-    height: 120px;
-    border-radius: 15px 15px 0 0;
-}
-.imgHérbergement5 {
-    width: 100%;
-    height: 120px;
-    border-radius: 15px 15px 0 0;
-}
-.imgHérbergement6 {
-    width: 100%;
-    height: 120px;
-    border-radius: 15px 15px 0 0;
-}
-*/
-
 
 /* Populaire*/
 .blocPopulaire {
@@ -288,21 +261,12 @@
     width: 60%;
     padding-left: 5%;
 }
-.imgPopulaire1 {
+.imgPopulaire {
     width: 35%;
     height: 160px;
     border-radius: 15px 0 0 15px;
 }
-.imgPopulaire2 {
-    width: 35%;
-    height: 160px;
-    border-radius: 15px 0 0 15px;
-}
-.imgPopulaire3 {
-    width: 35%;
-    height: 160px;
-    border-radius: 15px 0 0 15px;
-}
+
 /* Activities*/
 .Activites {
 margin-top: 50px;
@@ -457,25 +421,7 @@ transform: scale(1.03);
 .sizelien1_2 {
     margin-left: 20%;
 }   
-.buttonSearch {
-    height: 50px;
-    width: 50px;
-    color: white;
-    cursor: pointer;
-    border-radius: 10px 10px 10px 10px;    
-}
-.bordureSearch {
-    width: 300px;
-    border-radius: 10px;
-    border: 0.5px solid #F2F2F2;
-}
-.recherche {
-    height: 50px;
-    width: 200px;
-    font-size: 18px;
-    color: black;
-    font-weight: bold;  
-}
+
 .blocHérbergements {
     height: auto;
 }
@@ -509,7 +455,7 @@ margin-top: 0;
 .cubeActivites2_3_5_6 {
     margin-bottom: 50px;
 }
-.imgActivites1, .imgActivites2, .imgActivites3, .imgActivites4, .imgActivites5, .imgActivites6 {
+.imgActivites {
     height: 200px;
 }
 .footer {
@@ -521,5 +467,67 @@ margin-top: 0;
 .margFootBloc1 {
     margin-left: 0%;
 }
+
+}
+@media screen and (max-width: 600px) {
+.sizelien {
+    flex-direction: row;
+}
+.sizelien1_2 {
+    order: 1;
+    width: 100%;
+    margin-left: 0;  
+}
+.sizelienMobile {
+    width: 50%;
+    border-top: none;
+    border-bottom: 5px solid #F2F2F2;
+
+}
+.sizeliens {
+    width: 100%;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.sizelienMobile:hover {
+    border-top: 0;
+    border-bottom: 5px solid #0065FC;
+}
+/*
+.bordureSearch {
+    width: auto;
+    border: none;
+}
+.recherche {
+    width: 200px;
+    border: 1px solid #F2F2F2;
+}
+.buttonSearch {
+    width: 50px;
+    border-radius: 15px;
+}
+*/
+.bordureSearch {
+    width: 300px;
+    border-radius: 10px;
+    border: 0.5px solid #F2F2F2;
+}
+.recherche {
+    height: 50px;
+    width: 200px;
+}
+.buttonSearch {
+    height: 50px;
+    width: 50px;
+    border-radius: 10px;
+     
+}
+.buttonSearch i {
+    visibility: visible;
+}
+.mobileMode {
+    display: none;
+}
+
 }
    
