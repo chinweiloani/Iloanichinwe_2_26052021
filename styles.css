@@ -228,12 +228,7 @@
     cursor: pointer;
     transform: scale(1.1);
 }
-.sizePopulaire {
-    flex: 1;
-    height: 650px;
-    margin-left: 20px;
-    border-radius: 10px;
-}
+
 .imgHérbergement {
     width: 100%;
     height: 120px;
@@ -241,6 +236,12 @@
 }
 
 /* Populaire*/
+.sizePopulaire {
+    flex: 1;
+    height: 650px;
+    margin-left: 20px;
+    border-radius: 10px;
+}
 .blocPopulaire {
     padding-left: 20px;
     padding-right: 20px;
@@ -374,7 +375,7 @@ transform: scale(1.03);
         margin-left: 35%;
     }
     .cubeDetailsHérbegerment {
-        min-height: 150px;
+        min-height: 120px;
     }
     .sizeHérbergements {
         min-height: auto;
@@ -418,62 +419,129 @@ transform: scale(1.03);
 }
 
 @media screen and (max-width:770px) {
+    html, body {
+       margin: 0;
+       padding: 0;
+       width: 100%;
+   }
+   .FiltreMarg {
+       padding-left: 5%;
+   }
+   .margMobileNav {
+       padding-left: 5%;
+   }
+   .margLogo {
+       padding-left: 5%;
+   }
+   .info {
+       margin-left: 5%;
+   }
+   .parentIcon {
+       margin-bottom: 5%;
+   }
+   .bordureSearch {
+       margin-left: 5%;
+   }
+   
+   .sizeliens {
+           width: 90%;
+       }
+   .sizelien1_2 {
+       margin-left: 20%;
+   }   
+   
+   .blocHérbergements {
+       height: auto;
+   }
+   .bloc1 {
+       flex-direction: column;
+       margin-bottom: 0;
+   }
+   .bloc2 {
+   flex-direction: column;
+   margin-top: 0;
+   }
+   .cubeHérbergement {
+       width: 100%;
+       margin-bottom: 50px;
+       box-shadow: 5px 5px 5px 1px #F2F2F2;
+   }
+   .cubeDetailsHérbegerment {
+       min-height: auto;
+   }
+   .blocHérbergements {
+       background-color: white;
+      }
+   .blocActivites {
+       flex-direction: column;
+       height: auto;
+   }
+   .cubeActivites {
+   
+       margin-bottom: 50px;
+   }
+   .blocActivites2_3_5_6 {
+       width: auto;
+       height: auto;
+   }
+   .cubeActivites2_3_5_6 {
+       margin-bottom: 50px;
+   }
+   .imgActivitesG, .imgActivitesM, .imgActivitesP {
+       height: 180px;
+   }
+   .margMobileActivités {
+       margin-left: 5%;
+   }
+   
+   .cubeActivites {
+       width: 100%;
+       border-radius: 15px;
+       box-shadow: 5px 5px 5px 1px #DEEBFF;
+   }
+   .cubeActivites2_3_5_6 {
+       width: 100%;
+       border-radius: 15px;
+       box-shadow: 5px 5px 5px 1px #DEEBFF;      
+   }
+   .footer {
+       height: auto;
+       flex-direction: column;
+       align-items: flex-start;
+       padding-left: 20px;
+   }
+   .margFootBloc1 {
+       margin-left: 0%;
+   }
+   
+   
+   }
+   
 
-.sizeliens {
-        width: 90%;
-    }
-.sizelien1_2 {
-    margin-left: 20%;
-}   
-
-.blocHérbergements {
-    height: auto;
-}
-.bloc1 {
-    flex-direction: column;
-    margin-bottom: 0;
-}
-.bloc2 {
-flex-direction: column;
-margin-top: 0;
-}
-.cubeHérbergement {
-    width: 100%;
-    margin-bottom: 50px;
-}
-.cubeDetailsHérbegerment {
-    min-height: auto;
-}
-.blocActivites {
-    flex-direction: column;
-    height: auto;
-}
-.cubeActivites {
-    width: auto;
-    margin-bottom: 50px;
-}
-.blocActivites2_3_5_6 {
-    width: auto;
-    height: auto;
-}
-.cubeActivites2_3_5_6 {
-    margin-bottom: 50px;
-}
-.imgActivitesG, .imgActivitesM, .imgActivitesP {
-    height: 180px;
-}
-.footer {
-    height: auto;
-    flex-direction: column;
-    align-items: flex-start;
-    padding-left: 20px;
-}
-.margFootBloc1 {
-    margin-left: 0%;
-}
-
-}
 @media screen and (max-width: 600px) {
+html, body {
+margin: 0;
+padding: 0;
+width: 100%;
+}
+.FiltreMarg {
+    padding-left: 5%;
+}
+.margMobileNav {
+    padding-left: 5%;
+}
+.margLogo {
+    padding-left: 5%;
+}
+.info {
+    margin-left: 5%;
+}
+.parentIcon {
+    margin-bottom: 5%;
+}
+.margMobileActivités {
+    padding-left: 7%;
+}
 .sizelien {
     flex-direction: row;
 }
@@ -519,37 +587,18 @@ margin-top: 0;
 .mobileMode {
     display: none;
 }
-html, body {
-    margin: 0;
-    padding: 0;
-}
-.FiltreMarg {
-    padding-left: 5%;
-}
-.margMobileNav {
-    padding-left: 5%;
-}
-.margLogo {
-    padding-left: 5%;
-}
-.info {
-    margin-left: 5%;
-}
-.parentIcon {
-    margin-bottom: 5%;
-}
+
 .blocHérbergements {
-    background-color: white;
+ background-color: white;
 }
+
 .blocPopulaire {
     border-radius: 0;
 }
 .cubeHérbergement {
  box-shadow: 5px 5px 5px 1px #F2F2F2;
 }
-.margMobileActivités {
-    padding-left: 7%;
-}
+
 .cubeActivites {
 margin-left: 7%;
 width: auto;
@@ -558,5 +607,6 @@ width: auto;
 margin-left: 5%;
 width: auto;
 }
+
 }
    
