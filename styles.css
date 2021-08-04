@@ -1,6 +1,7 @@
 /* GENERAL */
 .html, body {
     font-family:'Raleway', Arial, Helvetica, sans-serif;
+    margin: 1%;
 }
 
 .flexCentre {
@@ -41,7 +42,7 @@
     border: none;
 }
 .texteGras {
-    font: weight 2rem;
+    font-weight: bolder;
 }
 .colorBleu {
     color:#0065FC;
@@ -365,7 +366,8 @@ transform: scale(1.03);
 .divfootLien {
     height: 30px;
 }
-/* mode responsive*/
+
+/* MODE RESPONSIVE */
 
 @media screen and (max-width: 1295px) {
     .sizelien1_2 {
@@ -447,18 +449,18 @@ margin-top: 0;
     height: auto;
 }
 .cubeActivites {
-    width: 100%;
+    width: auto;
     margin-bottom: 50px;
 }
 .blocActivites2_3_5_6 {
-    width: 100%;
+    width: auto;
     height: auto;
 }
 .cubeActivites2_3_5_6 {
     margin-bottom: 50px;
 }
 .imgActivitesG, .imgActivitesM, .imgActivitesP {
-    height: 200px;
+    height: 180px;
 }
 .footer {
     height: auto;
@@ -500,6 +502,7 @@ margin-top: 0;
     width: 300px;
     border-radius: 10px;
     border: 0.5px solid #F2F2F2;
+    margin-left: 5%;
 }
 .recherche {
     height: 50px;
@@ -516,6 +519,44 @@ margin-top: 0;
 .mobileMode {
     display: none;
 }
-
+html, body {
+    margin: 0;
+    padding: 0;
+}
+.FiltreMarg {
+    padding-left: 5%;
+}
+.margMobileNav {
+    padding-left: 5%;
+}
+.margLogo {
+    padding-left: 5%;
+}
+.info {
+    margin-left: 5%;
+}
+.parentIcon {
+    margin-bottom: 5%;
+}
+.blocHérbergements {
+    background-color: white;
+}
+.blocPopulaire {
+    border-radius: 0;
+}
+.cubeHérbergement {
+ box-shadow: 5px 5px 5px 1px #F2F2F2;
+}
+.margMobileActivités {
+    padding-left: 7%;
+}
+.cubeActivites {
+margin-left: 7%;
+width: auto;
+}
+.cubeActivites2_3_5_6 {
+margin-left: 5%;
+width: auto;
+}
 }
    
