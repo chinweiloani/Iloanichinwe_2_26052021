@@ -277,26 +277,27 @@ margin-bottom: 50px;
 }
 .blocActivites {
     width: 100%;
-    height: 600px;
+    height: 500px;
 }
 .blocActivites2_3_5_6 {
     width: 23%;
-    height: 600px;
+    height: 500px;
+    
 }
-
 .imgActivitesG {
     width: 100%;
-    height: 530px;
+    height: 430px;
     border-radius: 15px 15px 0 0 ;
 }
 .imgActivitesM {
     width: 100%;
-    height: 250px;
+    height: 230px;
     border-radius: 15px 15px 0 0 ;
+    
 }
 .imgActivitesP {
     width: 100%;
-    height: 150px;
+    height: 100px;
     border-radius: 15px 15px 0 0 ;
 }
 
@@ -555,7 +556,7 @@ width: 100%;
 .buttonSearch {
     height: 50px;
     width: 50px;
-    border-radius: 10px;  
+    border-radius: 15px;  
 }
 .buttonSearch i {
     visibility: visible;
