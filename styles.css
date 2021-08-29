@@ -255,17 +255,18 @@
     padding: 1% 0 1% 1%;
     border-radius: 20px;
 }
+
 .cubePopulaire:hover {
    cursor: pointer;
    transform: scale(1.05);
 }
 .cubeDetailsPopulaire {
     width: 60%;
-    padding-left: 5%;
+    padding-left: 5%;  
 }
 .imgPopulaire {
-    width: 35%;
-    height: 160px;
+    width: 40%;
+    height: 150px;
     border-radius: 15px 0 0 15px;
 }
 
@@ -562,49 +563,69 @@ width: 100%;
 .mobileMode {
     display: none;
 }
+.sizeHérbergements {
+margin-top: 10px;
+}
 
 .blocHérbergements {
  background-color: white;
-}
 
-.blocPopulaire {
-    border-radius: 0;
-  padding-left: 22%;
-   
-}
-.sizePopulaire {
-    width: 100%;
-    margin-left: 5px;
-    padding-right: 50px;
-    
 }
 .margMobileHérbergement {
     margin-left: 15px;
+   
 }
 .cubeHérbergement {
  box-shadow: 3px 3px 3px 3px #F2F2F2;
  margin-left: 30px;
+ margin-bottom: 20px;
+ 
  
 }
 .cubeDetailsHérbegerment {
     margin-left: 10px;
+    
 }
+.blocPopulaire1_2 {
+    margin-bottom: 10px;
+}
+
+.blocPopulaire {
+  border-radius: 0;
+  padding-left: 22%;
+   
+}
+.sizePopulaire {
+    height: auto;
+    width: 100%;
+    margin-left: 5px;
+    padding-right: 50px;
+     
+}
+.tabletteSizeTitrePop {
+    margin-left: 20px;
+    padding-top: 15px;
+}
+.Activites {
+    margin-top:  20px;
+}
+
 .cubeActivites {
     margin-left: 8%;
     width: 100%;
+    margin-bottom: 20px;
 }
 .cubeActivites2_3_5_6 {
     margin-left: 5%;
     width: 100%;
-}
-.tabletteSizeTitrePop {
-    margin-left: 20px;
+    margin-bottom: 20px;
 }
 
 .footer {
     width: 100%;
     padding-right: 50px;
     padding-top: 30px;
+    margin-top: 30px;
     
 }
 
