@@ -68,13 +68,13 @@
     height: auto;
 }
 
-.sizeliens {
+.sizeLiens {
     width: 100%;
 }
-.sizelien1_2 {
+.sizeLien1_2 {
     margin-left: 60%;
 }
-.sizelien {
+.sizeLien {
     width: 140px;
     height: 99px;
 }
@@ -427,11 +427,13 @@ transform: scale(1.03);
    .bordureSearch {
        margin-left: 5%;
    }
-   
-   .sizeliens {
+   .sizeLien {
+       height: 80px;
+   }
+   .sizeLiens {
            width: 90%;
     }
-   .sizelien1_2 {
+   .sizeLien1_2 {
        margin-left: 20%;
    }   
    
@@ -512,13 +514,14 @@ width: 100%;
 .margMobileActivités {
     padding-left: 7%;
 }
-.sizelien {
-    flex-direction: row;
+.sizeLien {
+    flex-direction: row; 
 }
-.sizelien1_2 {
+
+.sizeLien1_2 {
     order: 1;
     width: 100%;
-    margin-left: 0;  
+    margin-left: 0; 
 }
 .sizelienMobile {
     width: 50%;
@@ -526,7 +529,7 @@ width: 100%;
     border-bottom: 5px solid #F2F2F2;
 
 }
-.sizeliens {
+.sizeLiens {
     width: 100%;
     flex-direction: row;
     flex-wrap: wrap;
@@ -537,14 +540,16 @@ width: 100%;
 }
 
 .bordureSearch {
-    width: 300px;
+    width: 350px;
     border-radius: 10px;
     border: 0.5px solid #F2F2F2;
     margin-left: 5%;
+
 }
 .recherche {
     height: 50px;
-    width: 200px;
+    width: 250px;
+    
 }
 .buttonSearch {
     height: 50px;
@@ -602,6 +607,7 @@ width: 100%;
     padding-top: 30px;
     
 }
+
 
 }
    
