@@ -218,6 +218,10 @@
     width: 90%;
     
 }
+.margTexteHérbegement {
+    line-height: 2px;
+    padding-left: 10px;
+}
 .cubeHérbergement {
     width: 30%;
     height: 200px;
@@ -245,9 +249,14 @@
 .sizePopulaire {
     flex: 1;
     height: 600px;
-    margin-left: 20px;
+    margin-left: 10px;
     border-radius: 10px;
 }
+.MargTextePop {
+    line-height: 2px;
+    padding-bottom: 40px;
+}
+
 .blocPopulaire {
     padding-left: 20px;
     padding-right: 20px;
@@ -260,8 +269,7 @@
     background-color: white;
     height: auto;
     padding: 1% 0 1% 1%;
-    border-radius: 20px;
-    
+    border-radius: 20px;  
 }
 
 .cubePopulaire:hover {
@@ -280,6 +288,7 @@
 .TitrePop {
     padding-top: 20px;
 }
+
 
 /* Activities*/
 .Activites {
@@ -414,7 +423,6 @@ transform: scale(1.03);
         margin-top: 50px;
         padding: 5%;
     } 
-
 }
 
 @media screen and (max-width:770px) {
@@ -500,15 +508,17 @@ transform: scale(1.03);
    .margFootBloc1 {
        margin-left: 0%;
    }
-    
-   }
-   
+ }
 
 @media screen and (max-width: 600px) {
 html, body {
 margin: 0;
 padding: 0;
 width: 100%;
+}
+.margImgLogo {
+    width: 100px;
+    height: 30px;
 }
 .FiltreMarg {
     padding-left: 5%;
@@ -529,7 +539,7 @@ width: 100%;
     padding-left: 7%;
 }
 .sizeLien {
-    flex-direction: row; 
+    flex-direction: row;
 }
 
 .sizeLien1_2 {
@@ -540,13 +550,14 @@ width: 100%;
 .sizelienMobile {
     width: 50%;
     border-top: none;
-    border-bottom: 5px solid #F2F2F2;
-
+    border-bottom: 2px solid #F2F2F2;
+    
 }
 .sizeLiens {
     width: 100%;
     flex-direction: row;
     flex-wrap: wrap;
+    padding-top: 20px;
 }
 .sizelienMobile:hover {
     border-top: 0;
@@ -593,7 +604,6 @@ margin-top: 10px;
  margin-left: 30px;
  margin-bottom: 20px;
  
- 
 }
 .cubeDetailsHérbegerment {
     margin-left: 10px;
@@ -638,10 +648,8 @@ margin-top: 10px;
     width: 100%;
     padding-right: 50px;
     padding-top: 30px;
-    margin-top: 30px;
-    
+    margin-top: 30px;   
 }
-
 
 }
    
