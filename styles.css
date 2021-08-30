@@ -194,7 +194,7 @@
 /* HÉRBERGEMENTS*/
 .sizeHérbergements {
     flex: 2;
-    height: 650px;
+    height: 600px;
     margin-right: 20px;
     border-radius: 10px;
 }
@@ -216,10 +216,11 @@
 }
 .cubeDetailsHérbegerment {
     width: 90%;
+    
 }
 .cubeHérbergement {
     width: 30%;
-    height: auto;
+    height: 200px;
     background-color: white;
     padding: 1%;
     border-radius: 20px;
@@ -234,11 +235,16 @@
     height: 120px;
     border-radius: 15px 15px 0 0;
 }
+.texteHerbergement {
+   height: auto;
+   width: auto;
+    
+}
 
 /* Populaire*/
 .sizePopulaire {
     flex: 1;
-    height: 650px;
+    height: 600px;
     margin-left: 20px;
     border-radius: 10px;
 }
@@ -247,13 +253,15 @@
     padding-right: 20px;
 }
 .blocPopulaire1_2 {
-    margin-bottom: 20px;
+    margin-bottom: 20px;  
+    
 }
 .cubePopulaire {
     background-color: white;
     height: auto;
     padding: 1% 0 1% 1%;
     border-radius: 20px;
+    
 }
 
 .cubePopulaire:hover {
@@ -269,6 +277,9 @@
     height: 150px;
     border-radius: 15px 0 0 15px;
 }
+.TitrePop {
+    padding-top: 20px;
+}
 
 /* Activities*/
 .Activites {
@@ -278,27 +289,21 @@ margin-bottom: 50px;
 /*reglage en hauter*/
 .blocActivites {
     width: 100%;
-    height: 500px;
+    height: 400px;
 }
 .blocActivites2_3_5_6 {
     width: 23%;
-    height: 500px;
+    height: 400px;
     
-}
-.blocActivites5_6 {
-    width: 23%;
-    height: 500%;
-    
-
 }
 .imgActivitesG {
     width: 100%;
-    height: 430px;
+    height: 330px;
     border-radius: 15px 15px 0 0 ;
 }
 .imgActivitesM {
     width: 100%;
-    height: 230px;
+    height: 150px;
     border-radius: 15px 15px 0 0 ;
     
 }
@@ -353,7 +358,7 @@ transform: scale(1.03);
     margin-left: 5%;
 }
 .margFootBloc3 {
-    margin-right: 15%;
+    margin-right: 25%;
 }
 .footLien {
     color: black;
@@ -379,7 +384,7 @@ transform: scale(1.03);
         min-height: auto;
         padding: 20px;
     }
-    .tabletteSizeTitrePop {
+    .TitrePop {
         margin-top: 0%;
     }
 }
@@ -610,7 +615,7 @@ margin-top: 10px;
     padding-right: 50px;
      
 }
-.tabletteSizeTitrePop {
+.TitrePop {
     margin-left: 20px;
     padding-top: 15px;
 }
