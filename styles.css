@@ -1,9 +1,15 @@
 /* GENERAL */
 .html, body {
     font-family:'Raleway', Arial, Helvetica, sans-serif;
-    margin: 1%;
+    /* margin: 1%; */
+    margin: auto;
+    max-width: 1440px;
 }
-
+/**/
+nav, header, section {
+    width: 95%;
+    margin: 2%;
+}
 .flexCentre {
     display: flex;
     justify-content: center;
@@ -192,8 +198,13 @@
     margin-right: 5px;
 }
 /* HÉRBERGEMENTS*/
+/**/
+/* #hérbergements {
+    max-width: 1440px;
+    max-height: 640px;
+} */
 .sizeHérbergements {
-    flex: 2;
+    flex: 2.5;
     height: 600px;
     margin-right: 20px;
     border-radius: 10px;
@@ -221,6 +232,7 @@
 .margTexteHérbegement {
     line-height: 2px;
     padding-left: 5px;
+    width: max-content;
    
 }
 .cubeHérbergement {
@@ -253,17 +265,28 @@
     margin-left: 10px;
     border-radius: 10px;
 }
-.MargTextePop {
-    line-height: 2px;
-    padding-bottom: 40px;
+.margTextePop{
+    padding-bottom: 0px;
+}
+.margTextePop h4 {
+    width: 150px;
+    height: 40px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.margTextePop p {
+    margin-top: 5px;
 }
 
 .blocPopulaire {
     padding-left: 20px;
     padding-right: 20px;
 }
+/**/
 .blocPopulaire1_2 {
-    margin-bottom: 30px;  
+    width: 365px;
+    height: 120px;
+    margin-bottom: 15px;  
     
 }
 .cubePopulaire {
@@ -399,7 +422,10 @@ transform: scale(1.03);
     }
 }
 @media screen and (max-width: 990px) {
-   
+   /*  .sizelienMobile {
+        width: 60%;  
+    }
+    */
     .mobileFiltreWrap {
     flex-direction: column;
     align-items: flex-start;
@@ -484,7 +510,7 @@ transform: scale(1.03);
       }
     .blocActivites {
         flex-direction: column;
-        height: auto;
+        height: auto;   
     }
     .cubeActivites {
         width: 100%;
@@ -493,6 +519,7 @@ transform: scale(1.03);
     .blocActivites2_3_5_6 {
         width: 100%;
         height: auto;
+        
     }
   .cubeActivites2_3_5_6 {
       margin-bottom: 50px;
@@ -513,25 +540,30 @@ transform: scale(1.03);
 
 @media screen and (max-width: 600px) {
 html, body {
-margin: 0;
+margin: 10px;
 padding: 0;
-width: 100%;
+width: 420px;
+height: auto;
+}
+.section {
+    margin: 0px;
 }
 .margImgLogo {
     width: 100px;
     height: 30px;
 }
+
 .FiltreMarg {
-    padding-left: 5%;
+    padding-left: 0px;
 }
 .margMobileNav {
-    padding-left: 5%;
+    padding-left: 10px;
 }
 .margLogo {
     padding-left: 5%;
 }
 .info {
-    margin-left: 5%;
+    margin-left: 0px;
 }
 .parentIcon {
     margin-bottom: 5%;
@@ -548,12 +580,16 @@ width: 100%;
     width: 100%;
     margin-left: 0; 
 }
+/**/
 .sizelienMobile {
-    width: 50%;
+   /*  width: 50%;
     border-top: none;
-    border-bottom: 2px solid #F2F2F2;
-    
-}
+    border-bottom: 5px solid #F2F2F2;   */
+    height: 50px;
+    width: 50%;
+    /* width: 50px;
+    border-top: 0; */
+} 
 .sizeLiens {
     width: 100%;
     flex-direction: row;
@@ -569,7 +605,7 @@ width: 100%;
     width: 350px;
     border-radius: 10px;
     border: 0.5px solid #F2F2F2;
-    margin-left: 5%;
+    margin-left: 0px;
 
 }
 .recherche {
@@ -590,6 +626,7 @@ width: 100%;
 }
 .sizeHérbergements {
 margin-top: 10px;
+padding-right: 50px;
 }
 
 .blocHérbergements {
@@ -602,8 +639,11 @@ margin-top: 10px;
 }
 .cubeHérbergement {
  box-shadow: 3px 3px 3px 3px #F2F2F2;
- margin-left: 30px;
+ margin-left: 20px;
+ margin-right: 10px;
  margin-bottom: 20px;
+ width: 365px;
+ height: 200px;
  
 }
 .cubeDetailsHérbegerment {
@@ -616,14 +656,15 @@ margin-top: 10px;
 
 .blocPopulaire {
   border-radius: 0;
-  padding-left: 22%;
+ 
    
 }
 .sizePopulaire {
     height: auto;
-    width: 100%;
-    margin-left: 5px;
-    padding-right: 50px;
+    width: 375px;
+    margin-left: 0px;
+    padding-left: 30px;
+    margin-right: 10px;
      
 }
 .TitrePop {
@@ -633,16 +674,27 @@ margin-top: 10px;
 .Activites {
     margin-top:  20px;
 }
-
+.imgActivitesG {
+    height: 150px;
+    width: 365px;
+}
+.imgActivitesM {
+    height: 150px;
+    width: 365px;
+}
+.imgActivitesP {
+    height: 150px;
+    width: 365px;
+}
 .cubeActivites {
-    margin-left: 8%;
-    width: 100%;
-    margin-bottom: 20px;
+    margin-left: 0%;
+    width: 365px;
+    margin-bottom: 25px;
 }
 .cubeActivites2_3_5_6 {
-    margin-left: 5%;
-    width: 100%;
-    margin-bottom: 20px;
+    margin-left: 20px;
+    width: 365px;
+    margin-bottom: 25px;
 }
 
 .footer {
