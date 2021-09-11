@@ -440,13 +440,13 @@
      /* .sizelien1_2 {
         margin-left: 35%;
     } */
-    .sizeLiens {
+   .sizeLiens {
         width: 100%;
     }
     .sizeLien {
       height: 80px;
-  }
-    
+  } 
+     
    /*  .sizelienMobile {
         width: 60%;  
     } */
@@ -756,9 +756,13 @@
     margin-left: 15px;
     width: 89%;
   }
+  #hérbergements {
+    margin-right: 0px;
+    margin-left: 0px;
+  }
   .sizeHérbergements {
   margin-top: 0px;
-  padding-right: 0px;
+  padding-left: 0px;
   padding-right: 0px;
   width: 100%;
   /* margin-left: 15px; */
@@ -775,7 +779,7 @@
   
   }
   .margTexteHérbergement {
-    margin-left: 0px;
+    margin-left: 10px;
    
   }
   .cubeHérbergement {
@@ -788,7 +792,7 @@
   width: 93%;
   height: 200px;
   margin-left: 0px;
-  margin-right: 30px;
+  margin-right: 0px;
   margin-top: 20px;
   
   }
@@ -797,7 +801,7 @@
     
   }
   .margAfficher {
-    margin-left: 0px;
+    margin-left: 10px;
   }
   
   .Activites {
