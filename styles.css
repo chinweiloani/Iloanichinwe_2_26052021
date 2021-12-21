@@ -405,7 +405,7 @@
   
   /*MODE RESPONSIVE */
   
-  /* @media screen and (max-width: 1034px) {
+   /* @media screen and (max-width: 1034px) {
   
     .sizelien1_2 {
         margin-left: 25%;
@@ -433,74 +433,26 @@
         margin-top: 0%;
     }
     
-  }
-   */
-  @media screen and (max-width: 990px) {
-  
-     /* .sizelien1_2 {
-        margin-left: 35%;
-    } */
-   .sizeLiens {
-        width: 100%;
-    }
-    .sizeLien {
-      height: 80px;
-  } 
-     
-   /*  .sizelienMobile {
-        width: 60%;  
-    } */
+  } */
    
-   /*  .mobileFiltreWrap {
-    flex-direction: column;
-    align-items: flex-start;
+  @media screen and (max-width: 1028px) {
+
+    .section {
+      margin: 2%;
+      width: 95%;
+
     }
-    .filtreIconsTexte {
-        margin-bottom: 20px;
-    }
-    #hérbergements {
-        flex-direction: column-reverse;
-        width: 100%;
-    }
-    .blocPopulaire {
-        flex: none;
-        width: 90%;
-        margin-left: 0%;
-        padding: 5%;
-    }
-    .blocHérbergements {
-        flex: none;
-        width: 90%;
-        margin-right: 0;
-        margin-top: 50px;
-        padding: 5%;
-    }  */
-  }  
-  
-  /* MODE RESPONSIVE TABLETTE*/
-  @media screen and (max-width:768px) {
-    html, body {
-       margin: 0;
-       padding: 0;
-       width: 100%;
-   }
-   /* .section, header, footer {
-     width: 100%;
-     margin: 0;
-     padding: 0;
-   } */
-   .FiltreMarg {
-       padding-left: 5%;
-   }
-   .margMobileNav {
-       padding-left: 5%;
-   }
-   .margLogo {
-       padding-left: 5%;
-   }
-   .info {
-       margin-left: 5%;
-   }
+     .sizeLien {
+      height: 80px;
+      width: 150px;
+     }
+     .sizeLiens {
+      width: 100%;
+      } 
+     .sizeLien1_2 {
+      margin-left: 35%;
+     }   
+
    .mobileFiltreWrap {
     flex-direction: column;
     align-items: flex-start;
@@ -508,15 +460,158 @@
     .filtreIconsTexte {
         margin-bottom: 20px;
     }
-    #hérbergements {
-        flex-direction: column-reverse;
-        width: 100%;
-    }
+   
     .blocPopulaire {
         flex: none;
-        width: 90%;
+        width: 100%;
         margin-left: 0%;
-        padding: 5%;
+        padding: 5%;  
+    }
+    .imgPopulaire {
+      width: 40%;
+      height: 140px;
+      border-radius: 20px 0 0 20px;
+     /*  padding: 5px; */
+    }
+    .blocPopulaire1_2 {
+      margin-bottom: 10px;
+      margin-left: 15px;
+      width: 93%;
+      
+    }
+  
+    .cubePopulaire {
+    width: 93%;
+    height: 140px;
+    }
+    .sizePopulaire {
+      height: auto;
+      width: 98%;
+      padding-left: 0px;
+      padding-right: 0px;
+      
+       
+    }
+     #hérbergements {
+        flex-direction: column-reverse;
+        width: 98%;
+    }
+    .blocHérbergements {
+        flex: none;
+        width: 100%;
+        margin-right: 0px;
+        margin-top: 50px;
+        padding-left: 0px;
+        padding-right: 0px;
+        
+    }
+    .margTexteHérbergement{
+      padding-left: 20px;
+      padding-bottom: 10px;
+    }
+    .margAfficher{
+      padding-left: 20px;
+    }
+   
+    .sizeHérbergements {
+      flex: 2.5;
+      height: 600px;
+     /*  margin-right: 20px; */
+      border-radius: 10px;
+      width: 98%;
+     
+    }
+    .bloc1 {
+      padding-left: 20px;
+      padding-right: 20px;
+    }
+    .bloc2 {
+      padding-right: 20px;
+      padding-left: 20px;
+    }
+    
+    .TitrePop {
+      margin-left: 50px;
+      margin-right: 50px;
+      width: auto;
+     } 
+     .cubeActivites {
+      width: 23%;
+      border-radius: 15px;
+      box-shadow: 5px 5px 5px 1px #DEEBFF;
+      } 
+      .cubeActivites2_3_5_6 {
+        width: 100%;
+        border-radius: 15px;
+        box-shadow: 5px 5px 5px 1px #DEEBFF; 
+      }
+      .titreActivites {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        padding-left: 5%; 
+        width: 90%;
+      }
+      .Activites {
+        margin-right: 0%;
+        margin-left: 0%;
+        width: 98%;
+        
+    }
+    .footer {
+      width: 100%;
+      padding-left: 0px;
+      padding-right: 0px;
+      padding-top: 20px;
+      margin-top: 0px; 
+      margin-top: 0px;  
+    }
+    
+  }  
+  
+  /* MODE RESPONSIVE TABLETTE*/
+  @media screen and (max-width:768px) {
+    html, body {
+       margin: 0;
+       padding: 0;
+      
+   }
+
+  
+
+   /* .section, header, footer {
+     width: 100%;
+     margin: 0;
+     padding: 0;
+   } */
+   /* .FiltreMarg {
+    padding-left: 5%;
+   }
+   .margMobileNav {
+    padding-left: 5%;
+   }
+   .margLogo {
+    padding-left: 5%;
+   }
+   .info {
+    margin-left: 5%;
+   } */
+   .mobileFiltreWrap {
+    flex-direction: column;
+    align-items: flex-start;
+    }
+    .filtreIconsTexte {
+    margin-bottom: 20px;
+    }
+    #hérbergements {
+    flex-direction: column-reverse;
+    width: 100%;
+    }
+    .blocPopulaire {
+    flex: none;
+    width: 90%;
+    margin-left: 0%;
+    padding: 5%;
     }
     .blocHérbergements {
         flex: none;
@@ -529,23 +624,24 @@
    /* .parentIcon {
        margin-bottom: 5%;
    } */
-   .bordureSearch {
-       margin-left: 5%;
-   }
+   /* .bordureSearch {
+    margin-left: 5%;
+   } */
    .sizeLien {
-       height: 80px;
+    height: 80px;
+    width: 150px;
    }
    .sizeLiens {
-           width: 100%;
-    }
+    width: 100%;
+    } 
    .sizeLien1_2 {
-       margin-left: 0%;
-   } 
+    margin-left: 0%;
+   }   
    .TitrePop {
-       margin-left: 40px;
-       width: auto;
+    margin-left: 40px;
+    width: auto;
    }  
-   .sizePopulaire {
+   /* .sizePopulaire {
     height: auto;
     width: 100%
     
@@ -554,10 +650,66 @@
     width: 95%;
     padding-left: 0px;
     margin-left: 35px;
+    } */
+    .margTexteHérbergement {
+      margin-bottom: 10px;
+     
+    }
+    .imgPopulaire {
+      width: 40%;
+      height: 140px;
+      border-radius: 20px 0 0 20px;
+      padding: 5px;
+    }
+    .blocPopulaire1_2 {
+      margin-bottom: 10px;
+      margin-left: 15px;
+      width: 90%;
+      
+    }
+    .blocPopulaire {
+    border-radius: 0;
+    
+    }
+    .cubePopulaire {
+    width: 90%;
+    height: 140px;
+    }
+    
+    .sizePopulaire {
+      height: auto;
+      width: 100%;
+      padding-left: 0px;
+      padding-right: 0px;
+      /* margin-left: 15px;
+      padding-right: 20px; */
+       
     }
     .sizeHérbergements {
         margin-top: 10px;
         width: 100%;  
+    }
+    #hérbergements {
+      margin-right: 0px;
+      margin-left: 0px;
+    }
+    .sizeHérbergements {
+    margin-top: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    width: 100%;
+    /* margin-left: 15px; */
+    
+    }
+    .imgHérbergement {
+    /* width: 350px; */
+    border-radius: 20px 20px 0 0;
+    }
+    
+    .blocHérbergements {
+    background-color: white;
+    width: 93%;
+    
     }
    
    .blocHérbergements {
@@ -623,15 +775,24 @@
        height: auto;
        flex-direction: column;
        align-items: flex-start;
-       padding-left: 40px;
+       padding-left: 0px;
         padding-top: 30px;
         margin-top: 0px;  
         width: auto;
         
    }
    .margFootBloc1 {
-       margin-left: 0%;
-   }
+    margin-left: 30px;
+  }
+
+  .margFootBloc3 {
+    margin-left: 30px;
+  }
+
+  .footerBlocTaille {
+    margin-left: 30px; 
+  }
+   
   }
   
   /*MODE RESPONSIVE MOBILE*/
@@ -651,21 +812,19 @@
     margin-left: 10px;
   }
   
-  ./* FiltreMarg {
+  /* FiltreMarg {
     margin-left:  5px;
   }
   .margMobileNav {
     margin-left: 5px;
   } */
   
-  .margLogo {
-    padding-left: 5%;
-  }
-  /* .info {
-    margin-left: 2%;
+  /* .margLogo {
+    padding-left: 10px;
   } */
+
   .parentIcon {
-    margin-bottom: 5%;
+    margin-bottom: 10px;
   }
   .sizeLien {
     flex-direction: row;
@@ -833,9 +992,8 @@
   }
   .blocActivites {
     width: 95%;
-    
-    
   }
+
   .blocActivites2_3_5_6 {
     width: 97%;
   }
@@ -844,20 +1002,19 @@
     padding-left: 0px;
     padding-top: 20px;
     margin-top: 0px; 
-    margin-top: 0px;
-    
+    margin-top: 0px;  
   }
   .margFootBloc1 {
     margin-left: 30px;
   }
+
   .margFootBloc3 {
     margin-left: 30px;
-  
   }
+
   .footerBlocTaille {
-    margin-left: 30px;
-    
+    margin-left: 30px; 
   }
-  
-  }
+
+}
    
