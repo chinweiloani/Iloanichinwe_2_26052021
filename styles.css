@@ -1,12 +1,9 @@
 /* GENERAL */
 .html, body {
     font-family:'Raleway', Arial, Helvetica, sans-serif;
-    /* margin: 1%; */
     margin: auto;
     height: auto;
-    /* max-width: 1440px; */
   }
-  /**/
   nav, section {
     width: 95%;
     margin: 2%;
@@ -309,7 +306,6 @@
   .imgPopulaire {
     width: 40%;
     height: 140px;
-    /* height: 140px; */
     border-radius: 15px 0 0 15px;
   }
   .TitrePop {
@@ -404,38 +400,8 @@
   }
   
   /*MODE RESPONSIVE */
-  
-   /* @media screen and (max-width: 1034px) {
-  
-    .sizelien1_2 {
-        margin-left: 25%;
-    }
-    .sizeLiens {
-        width: 100%;
-    }
-    .cubeDetailsHérbegerment {
-        min-height: 120px;
-    }
-    .sizeHérbergements {
-        min-height: auto;
-        padding: 20px;
-        margin-right: 0%;
-    }
-    .cubeHérbergement {
-      width: 180px;
-      margin-right: 5px;
-    }
-    .sizePopulaire {
-        min-height: auto;
-        padding: 20px;
-    }
-    .TitrePop {
-        margin-top: 0%;
-    }
-    
-  } */
    
-  @media screen and (max-width: 1034px) {
+  @media screen and (max-width: 1110px) {
 
     .section {
       margin: 2%;
@@ -471,7 +437,7 @@
       width: 40%;
       height: 140px;
       border-radius: 20px 0 0 20px;
-     /*  padding: 5px; */
+     
     }
     .blocPopulaire1_2 {
       margin-bottom: 10px;
@@ -517,7 +483,6 @@
     .sizeHérbergements {
       flex: 2.5;
       height: 600px;
-     /*  margin-right: 20px; */
       border-radius: 10px;
       width: 98%;
       margin-left: 0%;
@@ -583,26 +548,6 @@
        padding: 0;
       
    }
-
-  
-
-   /* .section, header, footer {
-     width: 100%;
-     margin: 0;
-     padding: 0;
-   } */
-   /* .FiltreMarg {
-    padding-left: 5%;
-   }
-   .margMobileNav {
-    padding-left: 5%;
-   }
-   .margLogo {
-    padding-left: 5%;
-   }
-   .info {
-    margin-left: 5%;
-   } */
    .mobileFiltreWrap {
     flex-direction: column;
     align-items: flex-start;
@@ -627,13 +572,6 @@
         margin-top: 50px;
         padding: 5%;
     } 
-   /**/
-   /* .parentIcon {
-       margin-bottom: 5%;
-   } */
-   /* .bordureSearch {
-    margin-left: 5%;
-   } */
    .sizeLien {
     height: 80px;
     width: 150px;
@@ -648,16 +586,6 @@
     margin-left: 40px;
     width: auto;
    }  
-   /* .sizePopulaire {
-    height: auto;
-    width: 100%
-    
-  }
-   .cubePopulaire {
-    width: 95%;
-    padding-left: 0px;
-    margin-left: 35px;
-    } */
     .margTexteHérbergement {
       margin-bottom: 10px;
      
@@ -688,9 +616,7 @@
       width: 100%;
       padding-left: 0px;
       padding-right: 0px;
-      /* margin-left: 15px;
-      padding-right: 20px; */
-       
+     
     }
     .sizeHérbergements {
         margin-top: 10px;
@@ -705,11 +631,9 @@
     padding-left: 0px;
     padding-right: 0px;
     width: 100%;
-    /* margin-left: 15px; */
     
     }
     .imgHérbergement {
-    /* width: 350px; */
     border-radius: 20px 20px 0 0;
     }
     
@@ -804,12 +728,7 @@
   
   /*MODE RESPONSIVE MOBILE*/
   @media screen and (max-width: 600px) {
-  /* html, body {
-  margin: 0;
-  padding: 0;
-  width: auto;
-  height: auto;
-  } */
+  
   .margImgLogo {
     width: 100px;
     height: 30px;
@@ -818,17 +737,6 @@
     padding-left: 0%;
     margin-left: 10px;
   }
-  
-  /* FiltreMarg {
-    margin-left:  5px;
-  }
-  .margMobileNav {
-    margin-left: 5px;
-  } */
-  
-  /* .margLogo {
-    padding-left: 10px;
-  } */
 
   .parentIcon {
     margin-bottom: 10px;
@@ -842,13 +750,8 @@
     margin-left: 0; 
   }
   .sizelienMobile {
-   /*  width: 50%;
-    border-top: none;
-    border-bottom: 5px solid #F2F2F2;   */
     height: 50px;
     width: 50%;
-    /* width: 50px;
-    border-top: 0; */
   } 
   .sizeLiens {
     width: auto;
@@ -859,8 +762,7 @@
   .sizelienMobile:hover {
     border-top: 0;
     border-bottom: 5px solid #0065FC;
-  }
-  
+  } 
   .bordureSearch {
     width: 350px;
     border-radius: 10px;
@@ -911,14 +813,9 @@
     width: 100%;
     padding-left: 0px;
     padding-right: 0px;
-    /* margin-left: 15px;
-    padding-right: 20px; */
      
   }
   .TitrePop {
-    /* margin-left: 30px;
-    padding-top: 15px; */
-    /* padding-left: 20px; */
     margin-left: 15px;
     width: 89%;
   }
@@ -931,11 +828,9 @@
   padding-left: 0px;
   padding-right: 0px;
   width: 100%;
-  /* margin-left: 15px; */
   
   }
   .imgHérbergement {
-  /* width: 350px; */
   border-radius: 20px 20px 0 0;
   }
   
@@ -950,11 +845,7 @@
   }
   .cubeHérbergement {
   box-shadow: 3px 3px 3px 3px #F2F2F2;
-  /* margin-left: 25px;
-  padding-left: 00px;
-  margin-right: 0px; */
   margin-bottom: 20px;
-  /* width: 350px; */
   width: 93%;
   height: 200px;
   margin-left: 0px;
